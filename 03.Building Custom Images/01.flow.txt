@@ -1,0 +1,6 @@
+Dockerfile  ===> Docker Client (Docker CLI) ===> Docker Server(heavy lifting) ===> Usable image
+
+||    Creating a docker file
+||      - Specify a base image
+||      - Run some commands to install additonal programs
+\/      - Specify a command to run on container startup

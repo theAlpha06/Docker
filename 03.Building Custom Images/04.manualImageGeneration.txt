@@ -1,0 +1,13 @@
+Till now what we did is:
+  Image ===> Container
+
+Now 
+  Container ===> Image
+
+Doing what a docker file does.
+
+Open Terminal
+  > docker run -it alpine sh                         <-
+  $ apk add --update redis                            |
+  In new Terminal                                     |
+  > docker commit -c "CMD 'redis-server'" <id of the running container>
