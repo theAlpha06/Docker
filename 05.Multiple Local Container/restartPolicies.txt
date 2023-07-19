@@ -2,3 +2,5 @@
 always 		If this container stops "for any reason" always attempt to restart it
 on-failure	Only restart if the container stops with an error code
 unless-stopped	Always restart unless we (the developers) forcibly stop it
+
+Note: no should be either in '' or "", because in yml no is treated as false.
