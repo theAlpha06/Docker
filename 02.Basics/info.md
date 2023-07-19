@@ -47,3 +47,6 @@ Multi-command Containers
   docker exec -it <container_id> command
   docker exec -it redis-server sh
 ```
+`-it` flag is used to provide input to the container, t basically pretifies the output and i provides the input to the container
+
+> `docker exec -it <container_id> sh` is used to get the shell access to the container
