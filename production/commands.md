@@ -28,3 +28,24 @@ Hot reloading issue with app.test.js file
             we will add tests service to docker-compose.yml
         }
 
+
+### Run Tests
+
+```dockerfile
+    docker run <image_id> npm run test
+```
+
+### Run Tests in interactive mode
+```dockerfile
+    docker run -it <image_id> npm run test
+```
+
+### Volume setup for tests
+
+
+
+- Alternative (Reuse existing container)
+
+```dockerfile
+    docker exec -it <container_id> npm run test
+```
