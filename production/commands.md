@@ -27,3 +27,4 @@ Hot reloading issue with app.test.js file
         {
             we will add tests service to docker-compose.yml
         }
+
