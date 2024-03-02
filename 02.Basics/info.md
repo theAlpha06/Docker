@@ -1,7 +1,7 @@
 ```Docker
   docker run <image_name>
 ```
-docker - reference the client
+docker - reference the Docker client
 
 - Overridding the default command
 
