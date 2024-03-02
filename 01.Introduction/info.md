@@ -21,6 +21,8 @@ docker version
 docker run hello-world
 ```
 
+> `docker run <image_name>` is used to create a new container from the image. If the image is not present in the local machine, then it will pull the image from the docker hub and then create a new container from the image.
+
 > Namespacing: Isolating resources per process (or group of process)
 > Control Groups: Limit the amount of resources use per process
 
