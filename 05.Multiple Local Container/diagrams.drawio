@@ -1,0 +1,183 @@
+<mxfile host="65bd71144e">
+    <diagram id="a21500e9-0ca0-b480-354e-3eedfe436e19" name="Docker Compose">
+        <mxGraphModel dx="1254" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="#000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="440" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;font style=&quot;font-size: 19px;&quot;&gt;Node App&lt;/font&gt;" style="whiteSpace=wrap;html=1;strokeColor=#000;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#2D7600;fillColor=#60a917;fontColor=#ffffff;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="440" width="220" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Redis" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000;fontSize=19;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Docker Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="450" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Docker Container" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="135" y="450" width="210" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="96" value="" style="edgeStyle=none;hachureGap=4;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;entryX=-0.001;entryY=0.355;entryDx=0;entryDy=0;entryPerimeter=0;endSize=13;swimlaneLine=1;" edge="1" parent="1" source="18" target="95">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#000;strokeColor=#fff;fontSize=19;fontColor=#000;fillColor=none;strokeWidth=2;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="370" width="590" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="21" target="22" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="21" target="23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Options for Connecting These Containers" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="960" y="220" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Use Docker CLI's Network Feature" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="490" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="23" target="27" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Use Docker Compose" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="485" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="Docker Container" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="340" width="160" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="27" target="31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="Separate CLI that gets installed along with Docker" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="635" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="31" target="35" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Used to start up multiple Docker containers at the same time" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="785" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="Automates some of the long-winded arguments we were passing to 'docker run'" style="text;html=1;strokeColor=none;fillColor=#fff;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1110" y="935" width="240" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="37" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="docker build -t thealpha06/visits:latest&lt;br&gt;docker run -p 8080:8080 thealpha06/latest" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#fff;strokeWidth=2;fontSize=19;fillColor=#fff;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1400" y="510" width="410" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="" style="edgeStyle=none;html=1;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="38" target="40" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" style="edgeStyle=none;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" source="38" target="42" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;b&gt;docker-compose.yml&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#fff;strokeWidth=2;fontSize=19;fillColor=#fff;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1890" y="545" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="docker-compose CLI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#fff;strokeWidth=2;fontSize=19;fillColor=#fff;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1890" y="695" width="210" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Contains all the options we'd normally pass to docker-cli" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="1805" y="420" width="380" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Need to connect both these containers" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;labelBackgroundColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="570" width="440" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="docker-compose.yml" style="swimlane;whiteSpace=wrap;html=1;rounded=1;shadow=0;glass=0;labelBackgroundColor=#fff;strokeColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="2530" y="400" width="460" height="320" as="geometry">
+                        <mxRectangle x="2530" y="400" width="230" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value="Here are the containers I want created:" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#fff;strokeColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="46" vertex="1">
+                    <mxGeometry y="25" width="460" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="&lt;font color=&quot;#000000&quot;&gt;redis-server&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#fff;strokeColor=#2D7600;strokeWidth=2;fontSize=19;fontColor=#ffffff;fillColor=#60a917;align=center;swimlaneLine=1;" parent="46" vertex="1">
+                    <mxGeometry x="70" y="70" width="390" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" value="&lt;font color=&quot;#000000&quot;&gt;node-app&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=#fff;strokeColor=#2D7600;strokeWidth=2;fontSize=19;fontColor=#ffffff;fillColor=#60a917;align=center;swimlaneLine=1;" parent="46" vertex="1">
+                    <mxGeometry x="70" y="190" width="390" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Make it using the 'redis' image" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="46" vertex="1">
+                    <mxGeometry x="150" y="110" width="310" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Make it using the Dockerfile in the current directory&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#fff;strokeWidth=2;fontSize=19;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="46" vertex="1">
+                    <mxGeometry x="150" y="230" width="310" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Map port 8081 to 8081&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;glass=0;labelBackgroundColor=none;strokeColor=#fff;strokeWidth=6;fontSize=19;fontColor=#000;fillColor=#fff;swimlaneLine=1;" parent="46" vertex="1">
+                    <mxGeometry x="150" y="280" width="305" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJAQMAAADaX5RTAAAABlBMVEV7mr3///+wksspAAAAAnRSTlP/AOW3MEoAAAAdSURBVAgdY9jXwCDDwNDRwHCwgeExmASygSL7GgB12QiqNHZZIwAAAABJRU5ErkJggg==;imageBackground=none;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry width="9" height="9" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="" style="edgeStyle=none;rounded=1;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=16;swimlaneLine=1;" parent="1" source="80" target="81" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="" style="edgeStyle=none;rounded=1;hachureGap=4;html=1;fontFamily=Helvetica;fontSize=16;swimlaneLine=1;" parent="1" source="80" target="83" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="docker run myimage" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;verticalAlign=middle;horizontal=1;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="1080" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="docker-compose up" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;verticalAlign=middle;horizontal=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="1080" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="docker build ." style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;verticalAlign=middle;horizontal=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="1220" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="docker-compose up &lt;b&gt;--build&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;verticalAlign=middle;horizontal=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="580" y="1253.23" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="docker run myimage" style="whiteSpace=wrap;html=1;rounded=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;verticalAlign=middle;horizontal=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="1280" width="290" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="" style="shape=stencil(7VjLbttADPwaXYnd5T7PafofAeLUQl07cNzX35eqKtWk5HF0LXqT5RkvOSSHkjt+eNs/ve664N4u59Pn3ff++bLv+EMXQn/c7879Ra46fuz44eV03n06n74en8fPr08Dcrj6cvo2/MKPkReopoEU3M/xhqNWft/4OMIP/fEKzlSdgSd/G+49cTN4527jQ6Lhu/eH4yjreDy1APCVXFV4ngJcxUemqONJlDLAZ8oaXymh3y+UtT4+UAQCyQFNJ+AzFZBxjFSjIohEDEomKbusCYnqJoJUxUeYQzCESB7kkJiKzoELRRBSjouQGuyLkmxfRz+duUqomSprgsgACC0RF0tooDVao6yTllLmCmbNzbM1M+RQwGiFvB5+KQ0zIHiKWldp4AqSqJGKCanBgS6iq5YpiUOByuU2yT4TpL3ABOVAWVcui24ghyQn6JCkvRiUOlVirVKu0xC+k1CYPLCZZUhlLuUtQtRJVzFWcEKeR3gmRBiSEJKudC3k0FAvQ2rEKAexPh3S0I6gW6Vz/hjdTMCySjOzDqlFbK5+GuGZkGHS4lvOhFQmq1onBHJsCcjJQpn2x0yQFQRUkg0YmyWg1pCVHPQKEqtCG8UXKs0SInIysS1nCQm4hizN6i0hg17yjjhYAvR78oucK1A1T/vpCt/QErWmdOXmNx7EwkIidECw83wnAW8ffO4I5K0j3amAo7IQCJXYWYu8i3ebWmgNj3r0P77BJ+dVPOjPfxK/UZ+t+m/tZzyPSzya9zU88pPt+OW8Y7/a5j9r/pZAvmv+CV+jKJh47FaVi78v5S/94TC+019/b1/i5db4BwA//gI=);fillColor=none;rounded=1;hachureGap=4;fontFamily=Helvetica;fontSize=20;strokeWidth=5;swimlaneLine=1;" parent="1" vertex="1">
+                    <mxGeometry x="523.1899999999999" y="1210" width="33.62" height="146.46" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" value="" style="whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=none;swimlaneLine=1;" vertex="1" parent="1">
+                    <mxGeometry x="760" y="210" width="610" height="810" as="geometry"/>
+                </mxCell>
+                <mxCell id="112" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;endSize=13;" edge="1" parent="1" source="97" target="104">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="114" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=16;endSize=13;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="97" target="106">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="115" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;endSize=13;" edge="1" parent="1" source="97" target="108">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="117" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;endSize=13;" edge="1" parent="1" source="97" target="102">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" value="Restart Policies" style="text;strokeColor=#005700;align=center;fillColor=#008a00;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontColor=#ffffff;" vertex="1" parent="1">
+                    <mxGeometry x="1540" y="1200" width="280" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="116" style="edgeStyle=none;sketch=0;hachureGap=4;jiggle=2;curveFitting=1;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=16;endSize=13;" edge="1" parent="1" source="102" target="110">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="102" value="&quot;no&quot; - Never attempt to restart this container if it stops or crashes" style="text;strokeColor=#6F0000;align=center;fillColor=#a20025;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontColor=#ffffff;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="1530" width="340" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="104" value="always - If this container stops &quot;for any reason&quot; always attempt to restart it" style="text;strokeColor=#2D7600;align=center;fillColor=#60a917;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontColor=#ffffff;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                    <mxGeometry x="1200" y="1516.46" width="400" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="106" value="on-failure - Only restart if the container stops with an error code" style="text;strokeColor=#A50040;align=center;fillColor=#d80073;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontColor=#ffffff;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                    <mxGeometry x="1630" y="1516.46" width="400" height="86.46" as="geometry"/>
+                </mxCell>
+                <mxCell id="108" value="unless-stopped - Always restart unless we(the developers) forcibly stop it" style="text;strokeColor=#2D7600;align=center;fillColor=#60a917;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;fontFamily=Helvetica;fontSize=20;fontColor=#ffffff;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+                    <mxGeometry x="2070" y="1516.46" width="400" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="110" value="Note: no should be either in '' or &quot; &quot;, because in yml no is treated as no" style="ellipse;whiteSpace=wrap;html=1;fontSize=20;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;rounded=0;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontFamily=Architects Daughter;" vertex="1" parent="1">
+                    <mxGeometry x="770" y="1650" width="340" height="150" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

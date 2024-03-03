@@ -6,7 +6,11 @@ const process = require('process');
 
 // Redis Client
 const client = redis.createClient({
-    host: 'redis-server',
+    /*
+->  redis-server:
+        image: 'redis'
+    */
+    host: 'redis-server', // This is the name of the service in the docker-compose.yml file for the redis container(name of the redis container in the network created by docker-compose)
     port: 6379
 });
 

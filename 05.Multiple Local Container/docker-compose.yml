@@ -7,3 +7,5 @@ services:
     build: .
     ports:
       - "4001:8081"
+      # Port mapping from the container to the host: "HOST:CONTAINER"
+      # docker compose will automatically create both 'redis-server' and 'node-app' networks and connect them
