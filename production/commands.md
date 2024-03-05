@@ -40,9 +40,9 @@ docker run -it <image_id> npm run test
 ### Volume setup for tests
 
 - After setting up the volumes we won't be able to run the tests in interactive mode, for that run second terminal and run ```docker attach <id>```
-With ```docker attach``` we are attaching `stdin`, `stdout` and `stderr` of the primary process of the container.
+With ```docker attach``` we are attaching `stdin`, `stdout` and `stderr` of the primary process of the container. So, we want to attach to that process which is responsible for the output of the tests. With `docker attach <image_id>` we can't achive that.
 
-- Tests command line interaction still doeen't work, for we are attaching to the primary process of the container.
+- Tests command line interaction still doesn't work, for we are attaching to the primary process of the container.
 
 - Alternative (Reuse existing container)
 
